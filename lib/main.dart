@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:portifolio/views/portifolio/portifolio_view.dart';
 
-import 'destop/desktop_view.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,6 +15,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
             primarySwatch: Colors.blue,
             visualDensity: VisualDensity.adaptivePlatformDensity),
-        home: DesktopView());
+        home: PortifolioView());
   }
 }
